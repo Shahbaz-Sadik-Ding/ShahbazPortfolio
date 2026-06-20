@@ -70,7 +70,7 @@ function ProfilePhoto() {
           }}>
             {imgOk ? (
               <img
-                src="/profile.jpg"
+                src={`${import.meta.env.BASE_URL}profile.jpg`}
                 alt="Shahbaz Sadik"
                 onError={() => setImgOk(false)}
                 style={{
