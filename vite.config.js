@@ -6,5 +6,5 @@ import react from '@vitejs/plugin-react'
 // Keep '/' if the repo is named 'shahbazsadik.github.io' (user site).
 export default defineConfig({
   plugins: [react()],
-  base: '/ShahbazPortfolio/',
+  base: '/shahbazportfolio/',
 })
